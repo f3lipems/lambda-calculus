@@ -13,7 +13,7 @@ const SELF = f => f(f)
 r = SELF(I) // [Function: I]
 
 
-// First Functino
+// First Function
 const FIRST = a => b => a
 
 r = FIRST(7)(11) // 7

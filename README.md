@@ -12,3 +12,4 @@
 - AND Operator
 - OR Operator
 - EQUAL Operator
+- XOR Operator

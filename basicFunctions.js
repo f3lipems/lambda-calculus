@@ -66,6 +66,13 @@ r = EQ(T)(F)
 r = EQ(F)(T)
 r = EQ(F)(F)
 
+
+// XOR
+const XOR = a => b => NOT(EQ(a)(b))
+
+r = XOR(T)(T)
+r = XOR(T)(F)
+r = XOR(F)(T)
+r = XOR(F)(F)
+
 console.log(r)
-
-

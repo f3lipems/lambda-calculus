@@ -24,4 +24,9 @@ const LAST = a => b => b
 
 r = LAST(3)(5) // 5
 
+
+// Chage Function
+const CHANGE = f => a => b => f(b)(a)
+
+r = CHANGE(LAST)(3)(5)
 console.log(r)

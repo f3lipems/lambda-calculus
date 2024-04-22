@@ -9,3 +9,5 @@
 - Change Function
 
 - NOT Operator
+- AND Operator
+- OR Operator

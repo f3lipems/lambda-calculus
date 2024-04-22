@@ -45,3 +45,12 @@ console.log(r)
 
 r = NOT(T)
 console.log(r)
+
+
+// AND
+const AND = a => b => a(b)(F)
+
+r = AND(T)(T)
+console.log(r)
+r = AND(T)(F)
+console.log(r)

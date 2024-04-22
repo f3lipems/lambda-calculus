@@ -11,3 +11,4 @@
 - NOT Operator
 - AND Operator
 - OR Operator
+- EQUAL Operator

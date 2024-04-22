@@ -57,4 +57,15 @@ const OR = a => b => a(T)(b)
 r = OR(F)(T)
 r = OR(F)(F)
 
+
+// EQ
+const EQ = a => b => a(b)(NOT(b))
+
+r = EQ(T)(T)
+r = EQ(T)(F)
+r = EQ(F)(T)
+r = EQ(F)(F)
+
 console.log(r)
+
+

@@ -7,3 +7,5 @@
 - First Function
 - Last Function
 - Change Function
+
+- NOT Operator

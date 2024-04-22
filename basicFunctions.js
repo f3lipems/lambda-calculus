@@ -29,4 +29,19 @@ r = LAST(3)(5) // 5
 const CHANGE = f => a => b => f(b)(a)
 
 r = CHANGE(LAST)(3)(5)
+
+
+// True or False
+
+// Operation ? First : Last
+const T = FIRST 
+const F = LAST
+
+// NOT Operator
+const NOT = a => a(F)(T)
+
+r = NOT(F)
+console.log(r)
+
+r = NOT(T)
 console.log(r)
